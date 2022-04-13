@@ -1,0 +1,78 @@
+= Documentation Manual
+Amanda Johnson; Deneise Turner; Joshua Turner
+// yyyy-mm-dd
+v1, 2022-05-01: Initial release
+:toc: macro
+:toc-title: Contents
+:toclevels: 4
+:repo: https://gitlab.com/
+:sectlinks:
+:hash-dir: hashes
+:control-type: ORG
+:control-number: 1
+:control-status: Draft
+:control-date: {revdate}
+:orgname: Team Reboot
+:control-order: {orgname}
+
+:sectnums!:
+== Control Information
+Source Repository: {repo}
+
+[cols="1,1,1,1"]
+|===
+// row 1
+|*Document Type:*
+|{control-type}
+|*Document #:*
+|{control-number}
+// row 2
+|*Status:*
+|{control-status}
+|*Document Order:*
+|{control-order}
+// row 3
+|*Version:*
+|{revnumber}
+|*Effective Date:*
+|{control-date}
+|===
+
+toc::[]
+
+== Purpose
+why did you write this document?
+
+== Scope
+what does this apply to (or not apply)
+
+== Roles
+Who is supposed to do something with this?
+
+== Revision History
+=== Approval
+Did Josh or Alex say this was ok?
+
+=== History
+|===
+|*Date*|*Version*|*Changes*|*Authors*
+|yyyy-mm-dd|1|describe change|names or initials
+|===
+:sectnums:
+
+== Standard
+what then
+
+=== Subsection
+and
+
+== Related Documents
+use a link to a file on the git or web
+
+=== Source File Metadata
+:table-caption!:
+.Source File Hashes
+[%header, format=csv]
+|===
+include::crc-v{revnumber}.csv[]
+|===

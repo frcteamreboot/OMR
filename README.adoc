@@ -1,0 +1,28 @@
+= Team Reboot Documentation
+Amanda Johnson, Deneise Turner, Joshua Turner
+:url-repo: 
+:sectlinks:
+
+== Structure
+Document Sources:: Controlled source files (mostly AsciiDoc).
+Publish:: PDF outputs from source files, ruby code to use with AsciiDoctor, and any other tools to help with publishing.
+
+== Notes
+Do not use spaces in file or folder names. Only use hyphens or underscores.
+
+== Tech Stack
+Git:: Version control tool for source code see: https://git-scm.com/.
+GitLab:: Website that will host Git repositories.
+AsciiDoc:: The document markup language (such as the source for this document). Like a simpler form of HTML that this site will render to look nice. See: https://en.wikipedia.org/wiki/AsciiDoc.
+AsciiDoctor:: Tools for converting AsciiDoc to formats other than html (PDF). Needs Ruby.
+Ruby:: For AsciiDoctor.
+
+=== Editors
+Intellij or VSCode are recommended with the relevant AsciiDoc and Ruby extensions.
+
+//== Common AsciiDoctor Commands
+//
+//Converting to PDF (windows path style)
+//----
+//asciidoctor-pdf .\Document_Sources\Organization\ORG-1_Documentation_Manual.adoc -D .\proof\
+//----
