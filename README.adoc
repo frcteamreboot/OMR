@@ -1,13 +1,13 @@
-= Team Reboot Documentation
+= Organizational Memory Document Control
 Amanda Johnson, Deneise Turner, Joshua Turner
 :url-repo: 
 :sectlinks:
 
-== Structure
+== Repository Structure
 Document Sources:: Controlled source files (mostly AsciiDoc).
 Publish:: PDF outputs from source files, ruby code to use with AsciiDoctor, and any other tools to help with publishing.
 
-== Notes
+== Style Guide
 Do not use spaces in file or folder names. Only use hyphens or underscores.
 
 == Tech Stack
@@ -25,4 +25,8 @@ Intellij or VSCode are recommended with the relevant AsciiDoc and Ruby extension
 //Converting to PDF (windows path style)
 //----
 //asciidoctor-pdf .\Document_Sources\Organization\ORG-1_Documentation_Manual.adoc -D .\proof\
+//----
+//Converting to PDF (linux path style)
+//----
+//asciidoctor-pdf ./Document_Sources/Organization/ORG-1_Documentation_Manual.adoc -D proof/
 //----
