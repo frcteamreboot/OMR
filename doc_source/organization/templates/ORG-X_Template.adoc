@@ -51,7 +51,7 @@ Who is supposed to do something with this?
 
 == Revision History
 === Approval
-Did Josh or Alex say this was ok?
+Who checked this document
 
 === History
 |===
