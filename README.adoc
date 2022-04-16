@@ -12,7 +12,7 @@ Do not use spaces in file or folder names. Only use hyphens or underscores.
 
 == Tech Stack
 Git:: Version control tool for source code see: https://git-scm.com/.
-GitLab:: Website that will host Git repositories.
+GitHub:: Website that will host Git repositories.
 AsciiDoc:: The document markup language (such as the source for this document). Like a simpler form of HTML that this site will render to look nice. See: https://en.wikipedia.org/wiki/AsciiDoc.
 AsciiDoctor:: Tools for converting AsciiDoc to formats other than html (PDF). Needs Ruby.
 Ruby:: For AsciiDoctor.
