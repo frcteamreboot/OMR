@@ -5,7 +5,6 @@ v1, 2022-05-01: Initial release
 :toc: macro
 :toc-title: Contents
 :toclevels: 4
-:repo: https://gitlab.com/
 :sectlinks:
 :hash-dir: hashes
 :control-type: ORG
@@ -16,7 +15,11 @@ v1, 2022-05-01: Initial release
 :control-order: {orgname}
 
 :sectnums!:
+
+include::../../source_metadata.txt[]
+
 == Control Information
+
 Source Repository: {repo}
 
 [cols="1,1,1,1"]
