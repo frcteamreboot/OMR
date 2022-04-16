@@ -1,4 +1,4 @@
-= Organizational Memory Document Control
+= Organizational Memory Repository
 Amanda Johnson, Deneise Turner, Joshua Turner
 :url-repo: 
 :sectlinks:
